@@ -1,0 +1,173 @@
+html {
+    background-color: #FFFFFF;
+}
+
+.bar-group.hover {
+    cursor: pointer;
+}
+
+.artist-circles.hover {
+    cursor: pointer;
+}
+
+#timeline {
+    /* padding-top: 30px; */
+    background-color: #F7F7F7;
+    padding-bottom: 20px;
+}
+
+#subgenre-under-inspection {
+    background-color: #EAEAEA;
+    margin-top: -110px;
+}
+
+#visualization-container {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    line-height: .1em;
+    font-family: Impact;
+    font-weight: 50;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    line-height: 0;
+    font-family: Impact;
+    font-weight: 50;
+}
+
+#by-line {
+    line-height: normal;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#intro p {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+#intro figure {
+    flex: 2;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: Impact;
+    font-weight: 50;
+}
+
+h4 {
+    text-align: center;
+    font-size: 80px;
+    line-height: 2;
+    font-family: Impact;
+    font-weight: 50;
+    background-color: #EAEAEA;
+    margin-bottom: -5%;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 50;
+    font-family: Impact;
+}
+
+#info-on-subgenres {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#rap-subgenre-info-left {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#rap-subgenre-info-left-text {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 3%;
+    max-width: 50%;
+}
+
+#rap-subgenre-info-left figure {
+    flex: 2;
+    max-width: 50%;
+    justify-content: center;
+    margin-right: -20%;
+}
+
+#rap-subgenre-info-right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#rap-subgenre-info-right-text {
+    flex: 2;
+    margin-left: 3%;
+    margin-right: 10%;
+    max-width: 50%;
+}
+
+#rap-subgenre-info-left figure {
+    flex: 1;
+    max-width: 50%;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2em;
+}
+
+figcaption {
+    max-width: 600px;
+    font-size: smaller;
+    color: gray;
+    font-family: 'Libre Baskerville', serif;
+}
+
+figure {
+    max-width: 40%;
+    align-items: center;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#the-data-info {
+    text-align: left;
+    justify-content: center;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ul {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2em;
+}

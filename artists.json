@@ -1,0 +1,647 @@
+[
+    {
+        "artist": "The Fatback Band",
+        "monthly_listeners": 353000,
+        "profile_pic_url": "https://images.genius.com/1fc8ae69edc09ba29abf5d7e6015d66a.211x211x1.jpg"
+    },
+    {
+        "artist": "Sugargill Gang",
+        "monthly_listeners": 1351000,
+        "profile_pic_url": "https://images.genius.com/93e12cf28c9b458324a9dbe925b6e7e8.1000x790x1.jpg"
+    },
+    {
+        "artist": "Kurtis Blow",
+        "monthly_listeners": 173000,
+        "profile_pic_url": "https://images.genius.com/02823bbce7d219b8f6f697a3fd0644dd.1000x667x1.jpg"
+    },
+    {
+        "artist": "Funky 4 + 1",
+        "monthly_listeners": 31000,
+        "profile_pic_url": "https://images.genius.com/a1c564dca5467f9764627385c225d6af.1000x750x1.jpg"
+    },
+    {
+        "artist": "Planet Patrol",
+        "monthly_listeners": 53000,
+        "profile_pic_url": "https://images.genius.com/e7752bd6df2e43e82d275381f7f50b60.291x291x1.jpg"
+    },
+    {
+        "artist": "Grandmaster Flash and the Furious Five",
+        "monthly_listeners": 624000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/1373859871_Grandmaster_Flash_and_The_Furious_Five.jpg"
+    },
+    {
+        "artist": "Afrika Bambaataa",
+        "monthly_listeners": 401000,
+        "profile_pic_url": "https://images.genius.com/41d87667ff5f554f8f8bf43ff8938750.500x500x1.jpg"
+    },
+    {
+        "artist": "Treacherous Three",
+        "monthly_listeners": 3000,
+        "profile_pic_url": "https://images.genius.com/1f875639066ae57ae5277d36d6072508.287x340x1.jpg"
+    },
+    {
+        "artist": "Whodini",
+        "monthly_listeners": 222000,
+        "profile_pic_url": "https://images.genius.com/a6c0252919287d51ce47b1b31968287d.500x279x1.jpg"
+    },
+    {
+        "artist": "Beastie Boys",
+        "monthly_listeners": 7617000,
+        "profile_pic_url": "https://images.genius.com/09c247c19326b24b53166c344eea1c91.1000x563x1.jpg"
+    },
+    {
+        "artist": "Run-D.M.C.",
+        "monthly_listeners": 4165000,
+        "profile_pic_url": "https://images.genius.com/c725421437d139c487aa8f8ff84ae169.1000x667x1.jpg"
+    },
+    {
+        "artist": "Newcleus",
+        "monthly_listeners": 171000,
+        "profile_pic_url": "https://images.genius.com/e83fe6551195ea5218ab51fd4ed5fb28.593x593x1.jpg"
+    },
+    {
+        "artist": "Fat Boys",
+        "monthly_listeners": 90000,
+        "profile_pic_url": "https://images.genius.com/0d1c13687f305e8ab09c7660be35383e.958x643x1.jpg"
+    },
+    {
+        "artist": "UTFO",
+        "monthly_listeners": 16000,
+        "profile_pic_url": "https://images.genius.com/13d2bf95906fbc81b1a0e108be8b5ab5.600x389x1.jpg"
+    },
+    {
+        "artist": "Schoolly D",
+        "monthly_listeners": 40000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/schoollyd.jpg"
+    },
+    {
+        "artist": "The Real Roxanne",
+        "monthly_listeners": 5000,
+        "profile_pic_url": "https://images.genius.com/a2f5f9aab061b1bbe2e80bf5fe8bb19f.600x315x1.jpg"
+    },
+    {
+        "artist": "Doug E. Fresh",
+        "monthly_listeners": 71000,
+        "profile_pic_url": "https://images.genius.com/43edb7094bb19b816fe11180d609712e.480x360x1.jpg"
+    },
+    {
+        "artist": "Salt-N-Pepa",
+        "monthly_listeners": 3739000,
+        "profile_pic_url": "https://images.genius.com/e613283b657a7565cff0dfed7cf2a737.546x365x1.jpg"
+    },
+    {
+        "artist": "LL Cool J",
+        "monthly_listeners": 3517000,
+        "profile_pic_url": "https://images.genius.com/1f8c5f483b7ddc0ddb56c0dee3eae987.700x393x1.jpg"
+    },
+    {
+        "artist": "Eric B. & Rakim",
+        "monthly_listeners": 1237000,
+        "profile_pic_url": "https://images.genius.com/a39c418c52aac094b7b6ccdec45b8c2a.400x400x1.jpg"
+    },
+    {
+        "artist": "Queen Latifah",
+        "monthly_listeners": 1391000,
+        "profile_pic_url": "https://images.genius.com/54015a0b5441c3e94ff76a375494b4a6.996x608x1.jpg"
+    },
+    {
+        "artist": "MC Lyte",
+        "monthly_listeners": 423000,
+        "profile_pic_url": "https://images.genius.com/bd64ae4fb95213532184897b0d6a46ad.800x800x1.jpg"
+    },
+    {
+        "artist": "Big Daddy Kane",
+        "monthly_listeners": 462000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/1321503841_BDK%20fade.jpg"
+    },
+    {
+        "artist": "Rakim",
+        "monthly_listeners": 2193000,
+        "profile_pic_url": "https://images.genius.com/a39c418c52aac094b7b6ccdec45b8c2a.400x400x1.jpg"
+    },
+    {
+        "artist": "Mantronix",
+        "monthly_listeners": 122000,
+        "profile_pic_url": "https://images.genius.com/0fc21121eef1fc1762df0b5e5a539773.1000x1000x1.jpg"
+    },
+    {
+        "artist": "West Coast Crew",
+        "monthly_listeners": 1000,
+        "profile_pic_url": "https://images.genius.com/20d543b5ee6fedc66ee559ecbfb246bb.600x357x1.jpg"
+    },
+    {
+        "artist": "Boogie Down Productions",
+        "monthly_listeners": 234000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/BDP%20OLD.jpg"
+    },
+    {
+        "artist": "Public Enemy",
+        "monthly_listeners": 1880000,
+        "profile_pic_url": "https://images.genius.com/2fc3c0101225462f95f494685c92e377.1000x525x1.jpg"
+    },
+    {
+        "artist": "DJ Jazzy Jeff & The Fresh Prince",
+        "monthly_listeners": 1578000,
+        "profile_pic_url": "https://images.genius.com/fc79c98f2cbe84a52087e7ffcce0232b.980x490x1.jpg"
+    },
+    {
+        "artist": "N.W.A",
+        "monthly_listeners": 5580000,
+        "profile_pic_url": "https://images.genius.com/af4bf07a5ac1cd974b6d3cbe3c1ebeba.1000x562x1.jpg"
+    },
+    {
+        "artist": "Slick Rick",
+        "monthly_listeners": 1374000,
+        "profile_pic_url": "https://images.genius.com/3c7fd9e0c5f32f93bcd2460ed7701724.715x402x1.jpg"
+    },
+    {
+        "artist": "Gang Starr",
+        "monthly_listeners": 3551000,
+        "profile_pic_url": "https://images.genius.com/ffe78f36e275ee89d6c858ededa9d41e.800x453x1.jpg"
+    },
+    {
+        "artist": "A Tribe Called Quest",
+        "monthly_listeners": 4994000,
+        "profile_pic_url": "https://images.genius.com/54015a0b5441c3e94ff76a375494b4a6.996x608x1.jpg"
+    },
+    {
+        "artist": "The Pharcyde",
+        "monthly_listeners": 2405000,
+        "profile_pic_url": "https://images.genius.com/dlwri3hi6bae3h4iqlq0s5ls9.664x442x1.jpg"
+    },
+    {
+        "artist": "De La Soul",
+        "monthly_listeners": 3052000,
+        "profile_pic_url": "https://images.genius.com/54015a0b5441c3e94ff76a375494b4a6.996x608x1.jpg"
+    },
+    {
+        "artist": "Wu-Tang Clan",
+        "monthly_listeners": 5961000,
+        "profile_pic_url": "https://images.genius.com/2d197bdfd274975a2d2b6654d68b950d.800x420x1.png"
+    },
+    {
+        "artist": "Souls of Mischief",
+        "monthly_listeners": 1732000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/485.jpg"
+    },
+    {
+        "artist": "Digable Planets",
+        "monthly_listeners": 971000,
+        "profile_pic_url": "https://images.genius.com/a262a8d2a84b7674974f690047cd11d2.640x640x1.jpg"
+    },
+    {
+        "artist": "The Notorious B.I.G.",
+        "monthly_listeners": 22340000,
+        "profile_pic_url": "https://images.genius.com/1b66a66f14427bb384ff3c8ccecc05f7.1000x333x1.jpg"
+    },
+    {
+        "artist": "KRS-One",
+        "monthly_listeners": 1272000,
+        "profile_pic_url": "https://images.genius.com/e9fa55af2e8bfddf3b40ea0e0347874f.556x556x1.jpg"
+    },
+    {
+        "artist": "Ice-T",
+        "monthly_listeners": 389000,
+        "profile_pic_url": "https://images.genius.com/5af2e40e8125055a930420a4af650183.700x393x1.jpg"
+    },
+    {
+        "artist": "Too $hort",
+        "monthly_listeners": 2422000,
+        "profile_pic_url": "https://images.genius.com/f35927678b0b5d10332cbf1f375c567e.1000x664x1.jpg"
+    },
+    {
+        "artist": "Eazy-E",
+        "monthly_listeners": 4076000,
+        "profile_pic_url": "https://images.genius.com/76fa14c12886611b4293eb7e1a2d295b.1000x667x1.jpg"
+    },
+    {
+        "artist": "The D.O.C.",
+        "monthly_listeners": 230000,
+        "profile_pic_url": "https://images.genius.com/2c7d3e0b16800ea567a0d4807458c5e5.500x490x1.jpg"
+    },
+    {
+        "artist": "Above the Law",
+        "monthly_listeners": 161000,
+        "profile_pic_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/1RAk8DjaQuuIvYBMtqXZ_tumblr_mm17ei7kIx1qzx6s2o1_500.jpg"
+    },
+    {
+        "artist": "Ice Cube",
+        "monthly_listeners": 15547000,
+        "profile_pic_url": "https://images.genius.com/705e8afd565c80f7780066d589fc2d0a.1000x333x1.jpg"
+    },
+    {
+        "artist": "Cypress Hill",
+        "monthly_listeners": 6009000,
+        "profile_pic_url": "https://images.genius.com/2f2104320db29ae88038bf47b5b1bc6f.1000x750x1.jpg"
+    },
+    {
+        "artist": "Geto Boys",
+        "monthly_listeners": 1634000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/4936_geto-boys.jpg"
+    },
+    {
+        "artist": "Spice 1",
+        "monthly_listeners": 367000,
+        "profile_pic_url": "https://images.genius.com/2315626768717d704209668ae051a50c.1000x563x1.jpg"
+    },
+    {
+        "artist": "Dr. Dre",
+        "monthly_listeners": 22444000,
+        "profile_pic_url": "https://images.genius.com/8f996b7d602ce42fea2b8f62d45442f2.660x371x1.png"
+    },
+    {
+        "artist": "Snoop Dogg",
+        "monthly_listeners": 29641000,
+        "profile_pic_url": "https://images.genius.com/4a8a11f406cfaa80085daaee24b78863.1000x563x1.jpg"
+    },
+    {
+        "artist": "MC Ren",
+        "monthly_listeners": 116000,
+        "profile_pic_url": "https://images.genius.com/a722d2901f7522aa22febf9036d8ef9e.1000x563x1.jpg"
+    },
+    {
+        "artist": "UGK",
+        "monthly_listeners": 1390000,
+        "profile_pic_url": "https://images.genius.com/c071d5af6353f1d326a0dd8f5d1079dc.583x389x1.jpg"
+    },
+    {
+        "artist": "Scarface",
+        "monthly_listeners": 1378000,
+        "profile_pic_url": "https://images.genius.com/9d02cf1e664a767d419d0f9399beae56.1000x473x1.png"
+    },
+    {
+        "artist": "Mobb Deep",
+        "monthly_listeners": 5179000,
+        "profile_pic_url": "https://images.genius.com/7da0ac2b90d69a8333c2863e35292d02.990x308x1.png"
+    },
+    {
+        "artist": "Brotha Lynch Hung",
+        "monthly_listeners": 305000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/Lynch-Blood-All-Over-Me.jpg"
+    },
+    {
+        "artist": "2Pac",
+        "monthly_listeners": 22323000,
+        "profile_pic_url": "https://images.genius.com/9e8d4ac7686f97d468032349947c5863.1000x750x1.jpg"
+    },
+    {
+        "artist": "Westside Connection",
+        "monthly_listeners": 2125000,
+        "profile_pic_url": "https://images.genius.com/1daeda77f8bbdc49d7271767641f793b.612x612x1.jpg"
+    },
+    {
+        "artist": "Three 6 Mafia",
+        "monthly_listeners": 3334000,
+        "profile_pic_url": "https://images.genius.com/a19d55883cb827d999e6ea708f23a755.500x333x1.jpg"
+    },
+    {
+        "artist": "South Central Cartel",
+        "monthly_listeners": 64000,
+        "profile_pic_url": "https://images.genius.com/0261b49bc89622e47b58f33afaccdc91.500x227x1.jpg"
+    },
+    {
+        "artist": "Lil Jon",
+        "monthly_listeners": 6191000,
+        "profile_pic_url": "https://images.genius.com/4a8d3abdd29104fed40980397c66c429.1000x177x1.jpg"
+    },
+    {
+        "artist": "Pastor Troy",
+        "monthly_listeners": 218000,
+        "profile_pic_url": "https://images.genius.com/c8486eeacddeb24d9c9128ca7be2c332.269x269x1.jpg"
+    },
+    {
+        "artist": "Gucci Mane",
+        "monthly_listeners": 13925000,
+        "profile_pic_url": "https://images.genius.com/de090514e8c38dadeac4a335a55f1989.800x1000x1.jpg"
+    },
+    {
+        "artist": "Project Pat",
+        "monthly_listeners": 1634000,
+        "profile_pic_url": "https://images.genius.com/6d4958bd96afe1560511ca216e6f7235.800x1000x1.jpg"
+    },
+    {
+        "artist": "Petey Pablo",
+        "monthly_listeners": 1724000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/1372159499_Petey.pablo.jpg"
+    },
+    {
+        "artist": "Ying Yang Twins",
+        "monthly_listeners": 1757000,
+        "profile_pic_url": "https://images.genius.com/e4f42ed5d7e0f21dfb04400081b98e67.500x365x1.jpg"
+    },
+    {
+        "artist": "T.I.",
+        "monthly_listeners": 10883000,
+        "profile_pic_url": "https://images.genius.com/9a7118eb0b1e83879cdb4b7855158d53.320x180x1.jpg"
+    },
+    {
+        "artist": "Bone Crusher",
+        "monthly_listeners": 294000,
+        "profile_pic_url": "https://images.genius.com/6497d44b9be137faceb1b79900037251.334x334x1.png"
+    },
+    {
+        "artist": "YoungBloodZ",
+        "monthly_listeners": 577000,
+        "profile_pic_url": "https://images.genius.com/00987dfde43678bad85118d74729f9cb.400x382x1.jpg"
+    },
+    {
+        "artist": "Lil Wyte",
+        "monthly_listeners": 667000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/lil%2527%2520wyte-1.jpg"
+    },
+    {
+        "artist": "Trillville",
+        "monthly_listeners": 460000,
+        "profile_pic_url": "https://images.genius.com/093a5f93c105ebf5378d49c856ee7c65.600x365x1.jpg"
+    },
+    {
+        "artist": "Jim Jones",
+        "monthly_listeners": 1690000,
+        "profile_pic_url": "https://images.genius.com/f6bec8a3fda2350c3488d92d5f86113c.960x540x1.jpg"
+    },
+    {
+        "artist": "D4L",
+        "monthly_listeners": 869000,
+        "profile_pic_url": "https://images.genius.com/c4527f19783f05a90042f57aa7a5a4c8.400x229x1.jpg"
+    },
+    {
+        "artist": "David Banner",
+        "monthly_listeners": 937000,
+        "profile_pic_url": "https://s3.amazonaws.com/rapgenius/david-banner1.jpg"
+    },
+    {
+        "artist": "Jeezy",
+        "monthly_listeners": 4338000,
+        "profile_pic_url": "https://images.genius.com/26e2d95164a90805dc4291f54aa1fcce.852x852x1.jpg"
+    },
+    {
+        "artist": "Lil Scrappy",
+        "monthly_listeners": 507000,
+        "profile_pic_url": "https://images.genius.com/c029b5819aa2879475b73d63e7c08c6f.1000x754x1.jpg"
+    },
+    {
+        "artist": "Yung Joc",
+        "monthly_listeners": 1298000,
+        "profile_pic_url": "https://images.genius.com/9be377d68549a55b72ffdd674d23db3a.1000x500x1.jpg"
+    },
+    {
+        "artist": "Jibbs",
+        "monthly_listeners": 386000,
+        "profile_pic_url": "https://images.genius.com/8b6f2aacdcc66badb1110463e02a7b48.375x594x1.jpg"
+    },
+    {
+        "artist": "Crime Mob",
+        "monthly_listeners": 837000,
+        "profile_pic_url": "https://images.genius.com/9ee5bd094a1ab9b0a940cfb9b19cd1d3.1000x563x1.jpg"
+    },
+    {
+        "artist": "Pitbull",
+        "monthly_listeners": 32969000,
+        "profile_pic_url": "https://images.genius.com/019c3e4f1239bc5e1c870ad8a780d793.860x860x1.jpg"
+    },
+    {
+        "artist": "King Louie",
+        "monthly_listeners": 45000,
+        "profile_pic_url": "https://images.genius.com/6b395572efa09356604fe220450b5451.1000x563x1.jpg"
+    },
+    {
+        "artist": "SD",
+        "monthly_listeners": 54000,
+        "profile_pic_url": "https://images.genius.com/173cb4d0953fede1bb0e8161d6facf9d.1000x1000x1.jpg"
+    },
+    {
+        "artist": "Fredo Santana",
+        "monthly_listeners": 157000,
+        "profile_pic_url": "https://images.genius.com/92178215a31a3c9399ac73c0627470a0.1000x167x1.jpg"
+    },
+    {
+        "artist": "Lil Reese",
+        "monthly_listeners": 174000,
+        "profile_pic_url": "https://images.genius.com/ce5a7189733df2167431547f8867c978.700x400x1.jpg"
+    },
+    {
+        "artist": "RondoNumbaNine",
+        "monthly_listeners": 14000,
+        "profile_pic_url": "https://images.genius.com/b8c5b0b9ddafd5168fb729607acf9397.600x327x1.jpg"
+    },
+    {
+        "artist": "Lil Bibby",
+        "monthly_listeners": 91000,
+        "profile_pic_url": "https://images.genius.com/b987508ce10e1214becb583b2c48122f.1000x290x1.png"
+    },
+    {
+        "artist": "King Lil Jay",
+        "monthly_listeners": 25000,
+        "profile_pic_url": "https://images.genius.com/4314d70c2681c7221b06bc6975d8b24e.622x640x1.jpg"
+    },
+    {
+        "artist": "Tay Capone",
+        "monthly_listeners": 21000,
+        "profile_pic_url": "https://images.genius.com/0a292f0fa0261686f7c2f8ac9d3a5746.750x1000x1.jpg"
+    },
+    {
+        "artist": "Young Pappy",
+        "monthly_listeners": 229000,
+        "profile_pic_url": "https://images.genius.com/1323c9cf0546fa9057d3c3e47147f24e.480x480x1.jpg"
+    },
+    {
+        "artist": "Famous Dex",
+        "monthly_listeners": 2853000,
+        "profile_pic_url": "https://images.genius.com/71203f4f4ebe622d763bbcf6e608b001.1000x147x1.jpg"
+    },
+    {
+        "artist": "Chief Keef",
+        "monthly_listeners": 9586000,
+        "profile_pic_url": "https://images.genius.com/4021ba198d32951f29a747ea92c3d57f.1000x333x1.jpg"
+    },
+    {
+        "artist": "G Herbo",
+        "monthly_listeners": 6419000,
+        "profile_pic_url": "https://images.genius.com/dea7caf40b79782d5339f468dffd45e0.630x420x1.jpg"
+    },
+    {
+        "artist": "FBG Duck",
+        "monthly_listeners": 254000,
+        "profile_pic_url": "https://images.genius.com/193d4c15c42b770506f8d2f9f04a6893.1000x667x1.jpg"
+    },
+    {
+        "artist": "Lil Durk",
+        "monthly_listeners": 20596000,
+        "profile_pic_url": "https://images.genius.com/b8097f0d2205da855a16c468d1452b5d.800x1000x1.jpg"
+    },
+    {
+        "artist": "Loski",
+        "monthly_listeners": 837000,
+        "profile_pic_url": "https://images.genius.com/952f5769beaa94303fdcd8c8820dd980.498x255x59.gif"
+    },
+    {
+        "artist": "Pop Smoke",
+        "monthly_listeners": 24518000,
+        "profile_pic_url": "https://images.genius.com/0de0aaf51969f9e894ca9512adfe690c.1000x750x1.jpg"
+    },
+    {
+        "artist": "Future",
+        "monthly_listeners": 47916000,
+        "profile_pic_url": "https://images.genius.com/5e622dbebaf2309119258925d49c1a18.875x583x1.webp"
+    },
+    {
+        "artist": "Travis Scott",
+        "monthly_listeners": 46383000,
+        "profile_pic_url": "https://images.genius.com/77659552bac452cb5dee1ac1d68c62a9.480x288x24.gif"
+    },
+    {
+        "artist": "Post Malone",
+        "monthly_listeners": 51178000,
+        "profile_pic_url": "https://images.genius.com/1cc70a5e8d2d4c7a16635170b2d8cac1.1000x563x1.jpg"
+    },
+    {
+        "artist": "Young Thug",
+        "monthly_listeners": 28813000,
+        "profile_pic_url": "https://images.genius.com/faf71e6a99ed9c87d5c325d1fe81d92c.760x862x1.jpg"
+    },
+    {
+        "artist": "Lil Uzi Vert",
+        "monthly_listeners": 36085000,
+        "profile_pic_url": "https://images.genius.com/fc90b951e209e3e896cd3dc913bccf71.1000x333x1.jpg"
+    },
+    {
+        "artist": "Lil Yachty",
+        "monthly_listeners": 11518000,
+        "profile_pic_url": "https://images.genius.com/ed1f4a49b17ae373dbc76c8f4e52f720.801x1000x1.jpg"
+    },
+    {
+        "artist": "21 Savage",
+        "monthly_listeners": 60933000,
+        "profile_pic_url": "https://images.genius.com/cfcc3cd32c8978428e469cade68c1531.681x383x1.jpg"
+    },
+    {
+        "artist": "Playboi Carti",
+        "monthly_listeners": 16339000,
+        "profile_pic_url": "https://images.genius.com/d9da964146617602999d235936e9146a.318x159x1.png"
+    },
+    {
+        "artist": "Lil Pump",
+        "monthly_listeners": 7532000,
+        "profile_pic_url": "https://images.genius.com/97669c183e531446f148f92c5631955f.1000x667x1.jpg"
+    },
+    {
+        "artist": "Lil Baby",
+        "monthly_listeners": 30702000,
+        "profile_pic_url": "https://images.genius.com/883ae92f9df1109797e99e0537fd8b02.1000x333x1.jpg"
+    },
+    {
+        "artist": "Ski Mask the Slump God",
+        "monthly_listeners": 9223000,
+        "profile_pic_url": "https://images.genius.com/1a1bda4d9c9e90b7a71947154573757c.640x358x140.gif"
+    },
+    {
+        "artist": "Lil Xan",
+        "monthly_listeners": 2185000,
+        "profile_pic_url": "https://images.genius.com/dcccfbcc7739f6f00206af1d26341118.1000x1000x1.jpg"
+    },
+    {
+        "artist": "Trippie Redd",
+        "monthly_listeners": 19385000,
+        "profile_pic_url": "https://images.genius.com/cb8862d96235af8750677d64e92fee5a.1000x667x1.jpg"
+    },
+    {
+        "artist": "Lil Peep",
+        "monthly_listeners": 15004000,
+        "profile_pic_url": "https://images.genius.com/e65e57771e17b0da38257d96b846f680.1000x563x1.jpg"
+    },
+    {
+        "artist": "6ix9ine",
+        "monthly_listeners": 10128000,
+        "profile_pic_url": "https://images.genius.com/d274d0ec46da5f90bafa663787d71fb7.1000x563x1.png"
+    },
+    {
+        "artist": "Roddy Ricch",
+        "monthly_listeners": 22535000,
+        "profile_pic_url": "https://images.genius.com/e5a48ed6d2ab7bc3315b5d71ba8f664b.640x640x1.jpg"
+    },
+    {
+        "artist": "Juice WRLD",
+        "monthly_listeners": 31976000,
+        "profile_pic_url": "https://images.genius.com/87c55e8a5b91902ea6686d98b5b3bb3d.1000x563x1.png"
+    },
+    {
+        "artist": "Lil Tecca",
+        "monthly_listeners": 13044000,
+        "profile_pic_url": "https://images.genius.com/9046440b0f7d41ed006b0ff6d886d277.1000x1000x1.jpg"
+    },
+    {
+        "artist": "Lil Nas X",
+        "monthly_listeners": 35512000,
+        "profile_pic_url": "https://images.genius.com/818fe9695ac76cd55d9e978dd3df7bdf.770x770x1.jpg"
+    },
+    {
+        "artist": "Gunna",
+        "monthly_listeners": 24007000,
+        "profile_pic_url": "https://images.genius.com/c3db679dfdee89f6c1a389595f6b0486.640x640x1.jpg"
+    },
+    {
+        "artist": "Rich The Kid",
+        "monthly_listeners": 8389000,
+        "profile_pic_url": "https://images.genius.com/642a55353714961bf8f627143cd71885.1000x228x1.jpg"
+    },
+    {
+        "artist": "YNW Melly",
+        "monthly_listeners": 8865000,
+        "profile_pic_url": "https://images.genius.com/1f6fd6ffbb2b053924eed958fe63b905.1000x667x1.jpg"
+    },
+    {
+        "artist": "Smokepurpp",
+        "monthly_listeners": 2397000,
+        "profile_pic_url": "https://images.genius.com/e6ac495e298644c2b66bde5196c55070.1000x333x1.jpg"
+    },
+    {
+        "artist": "Waka Flocka Flame",
+        "monthly_listeners": 5651000,
+        "profile_pic_url": "https://images.genius.com/2c0ce44440f772f4cebdfb4d0195df8e.836x836x1.jpg"
+    },
+    {
+        "artist": "Yo Gotti",
+        "monthly_listeners": 4783000,
+        "profile_pic_url": "https://images.genius.com/d23302e8927143512c8e18d486d6b4dc.640x640x1.jpg"
+    },
+    {
+        "artist": "2 Chainz",
+        "monthly_listeners": 9671000,
+        "profile_pic_url": "https://images.genius.com/54036584132834d0f358492ec81ed5fe.494x594x1.jpg"
+    },
+    {
+        "artist": "Fetty Wap",
+        "monthly_listeners": 8853000,
+        "profile_pic_url": "https://images.genius.com/6f9786819f1b74337c108e2bb78a715c.1000x333x1.jpg"
+    },
+    {
+        "artist": "Metro Boomin",
+        "monthly_listeners": 54206000,
+        "profile_pic_url": "https://images.genius.com/7c4a3e3b29016dde7fa9d5663694d32a.787x268x1.png"
+    },
+    {
+        "artist": "Cardi B",
+        "monthly_listeners": 30745000,
+        "profile_pic_url": "https://images.genius.com/854e3b41f244636a74bdd7b7f4ee714c.1000x333x1.jpg"
+    },
+    {
+        "artist": "Drake",
+        "monthly_listeners": 684920000,
+        "profile_pic_url": "https://images.genius.com/a584fc9a929faec74d8444005dc9274f.700x466x1.jpg"
+    },
+    {
+        "artist": "Denzel Curry",
+        "monthly_listeners": 7574000,
+        "profile_pic_url": "https://images.genius.com/02e8afcb45f136bad849ee13f3770be9.1000x800x1.png"
+    },
+    {
+        "artist": "Baby Keem",
+        "monthly_listeners": 15828000,
+        "profile_pic_url": "https://images.genius.com/8bdb82f56376e40da2d5b3824a6efdeb.1000x333x1.jpg"
+    },
+    {
+        "artist": "Lil Wayne",
+        "monthly_listeners": 32685000,
+        "profile_pic_url": "https://images.genius.com/3b3485a28f2eb47c5ff3d7691e71bcba.1000x333x1.jpg"
+    }
+]
