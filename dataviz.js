@@ -1,32 +1,3 @@
-async function CrunkButton() {
-  clearViz()
-  StartViz(crunk_filepath)
-}
-async function DrillButton() {
-  clearViz()
-  StartViz(drill_filepath)
-}
-async function GangstaButton() {
-  clearViz()
-  StartViz(gangsta_filepath)
-}
-async function GoldenButton() {
-  clearViz()
-  StartViz(golden_filepath)
-}
-async function MumbleButton() {
-  clearViz()
-  StartViz(mumble_filepath)
-}
-async function OldButton() {
-  clearViz()
-  StartViz(old_filepath)
-}
-async function TrapButton() {
-  clearViz()
-  StartViz(trap_filepath)
-}
-
 async function drawTimeline() {
 
   // 1. Access Data
@@ -190,7 +161,7 @@ async function drawTimeline() {
     .text("Click on a Subgenre to See its Data")
     .style("font-family", "Impact")
     .style("font-weight", "50");
-    
+
 
   // Subgenre Labels
   bars.append("text")
@@ -251,10 +222,10 @@ async function StartViz(subgenre) {
   let commonWords = await getCommonWordsFromJson(subgenre_filepath)
 
   // Draw Vizes
-  drawArtistCircles(artistList)
+  drawArtistCircles(artistList, subgenre)
   drawWordCloud(commonWords)
   drawSpeedometer(subgenre_filepath)
-  drawSpider(subgenre_filepath)
+  drawSpider(subgenre_filepath, subgenre)
 }
 
 async function getCommonWordsFromJson(jsonFile) {
@@ -263,7 +234,7 @@ async function getCommonWordsFromJson(jsonFile) {
   return data.top_words;
 }
 
-async function drawArtistCircles(artistList) {
+async function drawArtistCircles(artistList, subgenre) {
 
   // 1. Access data
   let dataset = await d3.json("artists.json")
@@ -326,8 +297,8 @@ async function drawArtistCircles(artistList) {
   }
 
   var simulation = d3.forceSimulation()
-    .force("x", d3.forceX(dimensions.width / 2).strength(0.15))
-    .force("y", d3.forceY(dimensions.height / 2).strength(0.15))
+    .force("x", d3.forceX(dimensions.width / 2).strength(0.03))
+    .force("y", d3.forceY(dimensions.height / 2).strength(0.13))
     .force("collide", d3.forceCollide(d => sizeScale(sizeAccessor(d)) + 3))
 
   const circles = svg.selectAll(".artist")
@@ -401,6 +372,38 @@ async function drawArtistCircles(artistList) {
   function ticked() {
     circles.attr('transform', d => `translate(${d.x},${d.y})`);
   }
+
+  // change paragraph
+  var paragraphElement = document.querySelector("#bubbleChartParagraph");
+  switch (subgenre) {
+    case "Old School":
+      paragraphElement.innerHTML = 'Beastie Boys is the clear winner here for number of monthly spotify listeners in April 2023. While they debatably belong in the Golden Age era, this dataset considers their first albums to be Old School. The Beastie Boys originally started as a hardcore punk band called \"The Young Aborigines\". They later transitioned to hip-hop music. <br>In 2nd place we have Run-DMC. Run-DMC was formed in 1981 in Queens, New York, by Joseph \"Run\" Simmons, Darryl \"DMC\" McDaniels, and Jason \"Jam Master Jay\" Mizell. Run-DMC\'s debut album, \"<a href = "https://genius.com/albums/Rundmc/Rund-m-c" target="_blank">Run-D.M.C.</a>\" was released in 1984 and was the first hip-hop album to go gold, selling over 500,000 copies. They were also the first rap group to appear on the cover of Rolling Stone magazine. <br>In 3rd place is The Sugarhill Gang, formed in 1979. They are best known for their hit song \"<a href = "https://www.youtube.com/watch?v=mcCK99wHrk0" target="_blank">Rapper\'s Delight</a>\", which is widely regarded as the first commercially successful rap single.'
+      break;
+
+    case "Golden Age":
+      paragraphElement.innerHTML = 'The Golden Age of rap is named the way it is because it is considered the peak of hip hop in terms of innovation and diversity. Hip hop artists evolved in lyrical style and production tech quickly. In terms of artist diversity, we get some female representation in this era from artists like Queen Latifah, MC Lyte, and Salt & Pepa. Prior to this era, the only rappers lived in the north-east USA, but during this time, it spread to the West Coast, starting the rivalry between coasts.<br>Biggie was known for his distinctive flow and lyrical skill, which earned him the nickname "The King of New York." The name "Biggie Smalls" was actually inspired by a real-life gangster named "Biggie Smalls" who was active in Brooklyn during the 1970s. However, he had to change his name to "The Notorious B.I.G." due to legal issues with the original "Biggie Smalls." A Tribe Called Quest is known for their positive, socially conscious lyrics, and their influence on the development of alternative hip hop.'
+      break;
+
+    case "Gangsta":
+      paragraphElement.innerHTML = 'This chart justly displays the most influential artists of the Gangsta Rap era: N.W.A, 2Pac, Snoop Dogg, and Biggie. Most of them are from the west coast, and this era is where the East vs West Coast feud really began. It is worth noting that there are smaller subgenres similar to Gangsta Rap that focus more on East Coast, like "Mafioso Rap."<br>N.W.A were the ones to lead the charge in Gangsta Rap. Their 1988 album "Straight Outta Compton" is considered one of the most influential albums in hip hop history. The title track "<a href = "https://www.youtube.com/watch?v=CFcZbVyFZLI" target="_blank">Straight Outta Compton</a>" was controversial for its explicit and violent lyrics, especially since they were often aimed at police/government. In 1989, N.W.A was banned from performing their song "<a href = "https://www.youtube.com/watch?v=ADdpLv3RDhA" target = "_blank">Fuck tha Police</a>" by the FBI and police departments across the country. Also in 1989, Ice Cube left the group over disputes with the manager and royalties. However, Ice Cube ended up having a successful solo career (as did Dre).'
+      break;
+
+    case "Crunk":
+      paragraphElement.innerHTML = 'Crunk is a subgenre of hip hop that originated in the southern United States, particularly in the state of Georgia, in the late 1990s and early 2000s. It is characterized by heavy beats, melodic hooks that are easy to sing along to, and a focus on partying with energetic performances.<br>Some of the most notable crunk artists include Lil Jon, who is often credited with popularizing and running the genre, as well as Ying Yang Twins, Petey Pablo, and Lil Scrappy. Lil Jon is known for his distinctive raspy voice, which he has described as a result of his vocal cords being damaged from years of yelling and screaming while DJing.<br>While Pitbull is not generally considered a Crunk artist, he does have a couple albums from the era that draw heavily from Crunk music. He has since incorporated elements of Crunk, Latin, and pop into his successful music career.'
+      break;
+
+    case "Trap":
+      paragraphElement.innerHTML = 'Like Crunk, Trap originates from the southern USA, specifically Atlanta. 808 drum machines, synthesizers, and heavily processed vocals are all common attributes to Trap music.<br>Trap was coined by T.I. in his 2003 album "<a href = "https://genius.com/albums/Ti/Trap-muzik" target = "_blank">Trap Muzik</a>." Some of the most notable Trap artists other than T.I. are Gucci Mane, (Young) Jeezy, Future, 2 Chainz, Migos, and Travis Scott.<br>Similarly to what Pitbull is to Crunk, Drake is not classified exclusively as a Trap artist, but several instances of his discography definitely draw heavily from Trap. So, we decided to put his 2015 collaboration album with Future, "<a href = "https://genius.com/albums/Drake-and-future/What-a-time-to-be-alive" target = "_blank">What a Time to Be Alive</a>" in the dataset. By the way, "<a href = "https://genius.com/albums/Future/Ds2" target = "_blank">DS2</a>" by Future comes up a lot in internet forums like Reddit as the album that got Trap lovers into Trap.<br>It is also worth noting, especially for this particular graph that the circle sizes are relative to other artists in the same subgenre. So, Drake is huge compared to other Trap artists, but his circle should not be compared with those of artists from other subgenres.'
+      break;
+
+    case "Drill":
+      paragraphElement.innerHTML = ''
+      break;
+
+    case "Mumble":
+      paragraphElement.innerHTML = ''
+      break;
+  }
 }
 
 async function drawWordCloud(commonWords) {
@@ -450,9 +453,9 @@ async function drawWordCloud(commonWords) {
   // 5. Create Force Simulation
 
   const simulation = d3.forceSimulation(commonWords)
-    .force("center", d3.forceCenter(dimensions.boundedWidth / 2, dimensions.boundedHeight / 2))
-    .force("charge", d3.forceManyBody().strength(5))
-    .force("collision", d3.forceCollide().radius(d => sizeScale(sizeAccessor(d)) + 1))
+    .force("x", d3.forceX(dimensions.width / 2).strength(0.03))
+    .force("y", d3.forceY(dimensions.height / 2).strength(0.05))
+    .force("collide", d3.forceCollide(d => sizeScale(sizeAccessor(d)) + 1))
     .on("tick", ticked)
 
   function ticked() {
@@ -498,6 +501,37 @@ async function drawWordCloud(commonWords) {
       .on("end", dragended)
   }
 
+  // change paragraph
+  var paragraphElement = document.querySelector("#wordCloudParagraph");
+  switch (subgenre) {
+    case "Old School":
+      paragraphElement.innerHTML = 'In old school rap, "jibbit" was a slang term used to refer to money. It was popularized by the rap group Run-DMC in their song "<a href = "https://genius.com/Rundmc-peter-piper-lyrics" target="_blank">Peter Piper</a>" where they say "Now Peter Piper picked peppers, but Run rocked rhymes, Humpty Dumpty fell down, that\'s his hard time, Jack B. Nimble what nimble and he was quick, but Jam Master cut faster Jack\'s on Jay\'s dick, Now little Bo Peep cold lost her sheep, And Rip van Winkle fell the hell asleep, And Alice chillin\', Wonderland, Jack\'s spoon used with dish ran, away with the spoon, Ahuuuumpty Dumpty paid the debt, Now what do you call that? Jibbit! Jibbit, real good.\"<br>"Wikki" refers to the sound made by a DJ scratching a vinyl record back and forth, producing a distinct sound. The technique was discovered accidentally by DJ Grand Wizard Theodore in the late 1970s. Legend has it that he was practicing his DJing skills at home, and his mother burst into the room to scold him for playing his music too loud. In a moment of panic, he held the record still with his hand while moving the turntable back and forth with the other, creating the now-famous scratch sound. He was 12 years old when this happened.'
+      break;
+
+    case "Golden Age":
+      paragraphElement.innerHTML = 'Both "funk" and "funky" made it into this word cloud - funk music played an important role in the development of golden age hip hop. Many producers and DJs drew from the funk sound and incorporated its elements into their beats. <br>There are lots of names in this word cloud, like "wu/tang", "latifah", "biggie", and "jeff" (from DJ Jazzy Jeff & the Fresh Prince).<br>The word "bom" is repeated 180 times in a Beastie Boys song called "Girls" making "bom" the biggest word in this chart.'
+      break;
+
+    case "Gangsta":
+      paragraphElement.innerHTML = 'This is the last time in the dataset we see "mcs". The term still exists today, but it is definitely more prevalent on the old-school side of hip hop. In <a href = "https://www.youtube.com/watch?v=qrLmvqsljmU" target = "_blank">this interview</a> on Sway In The Morning, Ice-T describes the difference between an MC and a rapper - "An MC means a person that can move a crowd and basically control an audience. [...] Rappers you might see them get on a stage and they\'ll be afraid of the audience or they can only sing their hit record. [...] Rhyming is something [MCs] do, but that\'s not all they do."<br>There are several words here that reference the west coast: "coast", "westside", and "compton" signal the west\'s rise in the rap game and dominance in this genre. Still, "bronx" and "biggie" make the cut, referencing New York.<br>Like the Golden Age era, funk also influenced Gangsta Rap, leading to the greatest subgenre of all: G-Funk.'
+      break;
+
+    case "Crunk":
+      paragraphElement.innerHTML = 'The word "shawty" is actually thought to come out of Atlanta, Georgia, just like Crunk did. It is a term of endearment for women, but is usually used for the young and attractive party-oriented ones, which has led to some people considering it condescending. Nonetheless, it got so popular as a word because of Crunk that it has slipped into the vernacular and other music genres.<br>"Bankhead" is a neighborhood in Atlanta, Georgia that is known for its role in the development of crunk music. Many of the early crunk artists, such as Lil Jon and the Eastside Boyz, were from Bankhead, and the neighborhood is often referenced in their music. Bankhead also had a significant impact on the fashion and style associated with crunk music, with artists often wearing oversized clothing and sporting flashy jewelry, like "chain[s]," another word that made it into this word cloud.<br>"Bwok" is an onomatopoeic word that was popularized by the crunk rapper Project Pat, imitating the noise of a chicken in the song "<a href = "https://www.youtube.com/watch?v=-XaUiMcDFZs" target = "_blank">Chickenhead</a>."'
+      break;
+
+    case "Trap":
+      paragraphElement.innerHTML = 'There\'s a lot to unpack here... <ul><li>The rising popularity of adlibs such as "ayy," "skrrt," and "yah"</li><li>The emphasis of fashion and status symbols like jewelry through words like "bezzle," "chain," "racks," "wrist," "icy," "drippin\'," etc.</li><li>The continued use of "shawty" (see Crunk for more info)</li><li>Drug-related terms like "pot," "sosa" (slang for the infamous drug lord Joaquín "El Chapo" Guzmán), and "bricksquad" (a hip-hop collective founded by rapper Gucci Mane in the mid-2000s. The collective is known for their unique trap sound and includes artists such as Waka Flocka Flame, OJ da Juiceman, and Young Thug. The name "Brick Squad" is a reference to the group\'s origins in an Atlanta neighborhood known for its high level of drug trafficking. The use of the term "brick" to refer to drugs).</li></ul>'
+      break;
+
+    case "Drill":
+      paragraphElement.innerHTML = ''
+      break;
+
+    case "Mumble":
+      paragraphElement.innerHTML = ''
+      break;
+  }
 }
 
 async function drawSpeedometer(subgenre_filepath) {
@@ -666,9 +700,41 @@ async function drawSpeedometer(subgenre_filepath) {
     .attr("y2", -gaugeRadius * 0.67 * Math.cos(tickAngleRadians))
     .style("stroke", "red")
     .style("stroke-width", "2px");
+
+  // change paragraph
+  var paragraphElement = document.querySelector("#speedometerParagraph");
+  switch (subgenre) {
+    case "Old School":
+      paragraphElement.innerHTML = 'Don\'t let this chart fool you, hip-hop was born in South Bronx, a predominantly Black and Latino neighborhood that was hit hard by poverty, crime, and neglect. At the time, New York City was facing a financial crisis, and many public services were being cut, including funding for education and community programs. In 1970, Daniel P. Moynihan wrote <a href = "https://www.nixonlibrary.gov/sites/default/files/virtuallibrary/documents/jul10/53.pdf" target="_blank">a memorandum</a> for president Nixon. One of the key concepts in the document is captured in this quote that symbolizes the cause of hardship from the US government - "The time may have come when the issue of race could benefit from a period of \'benign neglect\'." The early hip hop scene was centered around block parties and street performances; it was a way for people to come together and create something positive in the face of adversity.'
+      break;
+
+    case "Golden Age":
+      paragraphElement.innerHTML = 'One of the main sentiments during this time was a feeling of empowerment and pride in black identity. Many rappers used their music to celebrate black culture and history, and to express their frustration with the systemic inequalities that plagued the community. This sentiment is evident in classic tracks like Public Enemy\'s "<a href = "https://www.youtube.com/watch?v=mmo3HFa2vjg" target="_blank">Fight the Power</a>" and "<a href = "https://www.youtube.com/watch?v=MmX5TgWsfEQ" target = "_blank">Self Destruction</a>" by Stop the Violence Movement which was released in 1989 and featured some of the biggest names in hip-hop at the time, including KRS-One, MC Lyte, Public Enemy, and Stetsasonic. The song\'s message promotes non-violence in the black community and discourages gang violence. The Stop the Violence movement was formed by KRS-One in response to recent violent tragedies in the black community at the time. The goal of the group was to advance a vision of hip hop that more closely aligned to its "original principles" for the music industry'
+      break;
+
+    case "Gangsta":
+      paragraphElement.innerHTML = 'The sentiment score of G-Rap in lower than every other subgenre in this dataset other than Drill. The lyrics of gangsta rap often depicted violence, drug use, and misogyny, and were criticized for promoting negative stereotypes of black people and perpetuating a cycle of violence. However, proponents of the genre argued that it was a form of social commentary and a way to shed light on the systemic issues and struggles faced by black Americans. Some say that the artists might also adopt a harder and rougher persona on the mic to play something of a character.<br>Despite the <a href = "https://www.ipl.org/essay/Gangsta-Rap-Controversy-F3C4CF742DTT" target = "_blank">controversy</a>, this subgenre helped push rap into the mainstream.'
+      break;
+
+    case "Crunk":
+      paragraphElement.innerHTML = 'The vibe of Crunk rap is associated with high energy, having a good time, and partying, which is why it is surprising to see this sentiment score in the negatives. A couple possibilities why this is the case includes... <ul><li>The physically aggressive side of Crunk, including violent themes.</li><li>The sexually aggressive side, which could be interpreted as misogyny at times. According to <a href = "https://www.youtube.com/watch?v=rCgBd9hvwqk" target = "_blank">this interview</a>, Lil Jon likes to take his new music to the strip club first to see whether or not it\'s going to be a hit.</li></ul>'
+      break;
+
+    case "Trap":
+      paragraphElement.innerHTML = 'The sentiment in Trap music is fairly conflicted, which could explain why it balances out near 0 on this gauge. How positive/negative the lyrics are can vary widely depending on the artist and the song, but some common themes include struggles with poverty, violence, and drugs which you will notice in the spider chart below. <br>Some trap artists rap about their experiences growing up in inner-city neighborhoods and the challenges they faced. However, there are also themes of materialism and the pursuit of wealth, often through illegal means such as drug dealing. Additionally, trap music often celebrates partying and a carefree lifestyle, with references to doing the drugs that they talk about dealing as well.'
+      break;
+
+    case "Drill":
+      paragraphElement.innerHTML = ''
+      break;
+
+    case "Mumble":
+      paragraphElement.innerHTML = ''
+      break;
+  }
 }
 
-async function drawSpider(subgenre_filepath) {
+async function drawSpider(subgenre_filepath, subgenre) {
   // 1. Access data
   const dataset = await d3.json(subgenre_filepath)
 
@@ -809,7 +875,7 @@ async function drawSpider(subgenre_filepath) {
     .datum(data)
     .attr("class", "area")
     .attr("d", line)
-    .style("fill", "red")
+    .style("fill", "gray")
     .style("opacity", 0.7);
 
   function angleToCoordinate(angle, value, scale) {
@@ -841,6 +907,38 @@ async function drawSpider(subgenre_filepath) {
         y = Math.sin(angle) * consciousScale(value);
         return { "x": width / 2 + x, "y": height / 2 - y };
     }
+  }
+
+  // change paragraph
+  var paragraphElement = document.querySelector("#spiderParagraph");
+  switch (subgenre) {
+    case "Old School":
+      paragraphElement.innerHTML = 'Rappers, or MCs, tackled a range of subjects, from braggadocio, to parties, to race, class, and the crises in the black community. However, it seems the main emphasis for successful MCs was getting the people up and grooving on the dance floor.<br>Hip hop culture has four primary elements: breakdancing, DJing, MCing, and graffiti. All of these are high energy activities that blossomed at block parties while the police were buying-in to the "benign neglect" ideology. DJs were and still are an essential part of hip hop parties and events, but did you know that MCs were originally the hype men for the DJ? Only later did they become the focal point of hip hop performances'
+      break;
+
+    case "Golden Age":
+      paragraphElement.innerHTML = 'This chart shows one of the reasons why the Golden Age era is so highly regarded in the history of hip hop - it was a time when rap was both socially conscious and musically innovative. The messaging and various styles of rap helped inspire the following generations of artists.<br>Notice how this spider-chart is somewhere in-between Old School and Gangsta Rap. The score of each topic lies somewhere between the scores from Old School and Gangsta Rap of that same topic. There are some Gangsta rap albums also classified as Golden Age in this dataset, as there is quite a bit of overlap between the two genres.'
+      break;
+
+    case "Gangsta":
+      paragraphElement.innerHTML = 'While G-Rap scores more highly in the topic of drugs than Old School and Golden Age, it still is not as high as any of the subgenres that come after it, suggesting a bigger and steady growth in America\'s relationship with drugs over time. Still, the drug-related content was shocking for listeners at the time. This subgenre does, however, rank highest in violence and death which is not a total surprise.<br>What will come as a surprise to many people is that this subgenre scored the highest in conscious lyrics. Many gangsta rappers shed light on issues such as police brutality, racism, poverty, and <a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2565489/" target = "_blank">the drug epidemic</a> that ravaged many inner-city neighborhoods during the 1980s and 1990s. Moreover, some gangsta rappers used their platform to promote self-empowerment and encourage listeners to take control of their lives and strive for success despite the hardships. Examples of gangsta rap songs with conscious themes include N.W.A\'s "Fuck tha Police" and Ice Cube\'s "<a href = "https://www.youtube.com/watch?v=78D8yW5c6cQ" target = "_blank">Endangered Species (Tales from the Darkside)</a>," which both address police brutality and racism. Tupac\'s "<a href = "https://www.youtube.com/watch?v=NRWUs0KtB-I" target = "_blank">Brenda\'s Got a Baby</a>," which is about a young girl struggling to survive in poverty.'
+      break;
+
+    case "Crunk":
+      paragraphElement.innerHTML = 'Listening to Crunk, you will not come across mentions of drugs like heroin, but mentions of party drugs like marijuana, sizzurp (AKA codeine), alcohol/liquor, ecstacy, and even cocaine will be pretty common. This side of Crunk rap is met with controversy, as some people believe it promotes a self-destructive lifestyle. Lil Wayne is an example of a rapper that has come out to publicly talk about his codeine addiction.<br>That said, Crunk, especially at live performances, really focuses on bringing its audience a good time in a fairly wholesome way, using call-and-response techniques to engage their audiences and create a sense of community and camaraderie.'
+      break;
+
+    case "Trap":
+      paragraphElement.innerHTML = ''
+      break;
+
+    case "Drill":
+      paragraphElement.innerHTML = ''
+      break;
+
+    case "Mumble":
+      paragraphElement.innerHTML = ''
+      break;
   }
 }
 
