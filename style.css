@@ -11,13 +11,14 @@ html {
 }
 
 #timeline {
-    /* padding-top: 30px; */
     background-color: #F7F7F7;
     padding-bottom: 20px;
+    position: sticky;
+    top: 0;
 }
 
 #subgenre-under-inspection {
-    background-color: #EAEAEA;
+    background-color: #F7F7F7;
     margin-top: -110px;
 }
 
@@ -25,7 +26,7 @@ html {
     display: none;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 h1 {
@@ -68,12 +69,63 @@ h2 {
     flex: 2;
 }
 
-h3 {
+figcaption {
+    max-width: 60%;
+    margin-top: -15%;
+    font-size: smaller;
+    color: black;
+    background-color: #F7F7F7b0;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    display: inline-block;
     text-align: center;
+    margin-left: 18%;
+}
+
+#img-figcaption {
+    text-align: left;
+    margin-top: 0%;
+    max-width: 600px;
+    font-size: smaller;
+    color: gray;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 0%;
+}
+
+h3 {
+    text-align: left;
     text-decoration: underline;
     font-size: x-large;
     font-family: Impact;
     font-weight: 50;
+}
+
+#one-left {
+    padding-left: 10%;
+}
+
+#one-right {
+    padding-right: 10%;
+}
+
+#two-right {
+    padding-right: 15%;
+}
+
+#three-left {
+    padding-left: 10%;
+}
+
+#three-right {
+    padding-right: 10%;
+}
+
+#four-right {
+    padding-right: 15%;
+}
+
+#four-left {
+    margin-top: -9%;
 }
 
 h4 {
@@ -82,7 +134,7 @@ h4 {
     line-height: 2;
     font-family: Impact;
     font-weight: 50;
-    background-color: #EAEAEA;
+    background-color: #F7F7F7;
     margin-bottom: -5%;
 }
 
@@ -92,7 +144,7 @@ h5 {
     font-family: Impact;
 }
 
-#info-on-subgenres {
+/* #info-on-subgenres {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -135,23 +187,18 @@ h5 {
 #rap-subgenre-info-left figure {
     flex: 1;
     max-width: 50%;
+} 
+
+*/
+
+figure {
+    max-width: 40%;
+    align-items: center;
 }
 
 p {
     font-family: 'Libre Baskerville', serif;
     line-height: 2em;
-}
-
-figcaption {
-    max-width: 600px;
-    font-size: smaller;
-    color: gray;
-    font-family: 'Libre Baskerville', serif;
-}
-
-figure {
-    max-width: 40%;
-    align-items: center;
 }
 
 .tab {
@@ -165,6 +212,7 @@ figure {
     max-width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 10%;
 }
 
 ul {
